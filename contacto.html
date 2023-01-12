@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</Origen-></title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+  <!-- Inicio barraDeNavegacion-->
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand ps-2" href="index.html">El Origen</a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--fin barraDeNavegacion-->
+
+  <section class="cuerpo flex-row d-flex justify-content-center align-items-center">
+    <!-- inicio formulario e-mail -->
+    <div class="formulario p-3 m-2 text-light bg-dark border border-light">
+      <h3 class="m-2 text-light bg-dark border border-light">Envianos un e-mail</h3>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Tu mail</label>
+        <input type="email" class="form-control  " id="exampleFormControlInput1" placeholder="tumail@ejemplo.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Tu mensaje</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    </div>
+    <!-- fin formulario e-mail -->
+      <!--inicio  acordeon-->
+      <div class="accordion m-2 p-3" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header " id="panelsStayOpen-headingOne">
+            <button class="accordion-button text-light bg-dark" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseOne">
+              Telefono:
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show "
+            aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+              <p>
+                2945 356782
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item ">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button class="accordion-button collapsed text-light bg-dark" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseTwo">
+              E-mail
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body">
+              <p>
+                elorigen@gmail.com
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed text-light bg-dark" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Ubicacion
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <p>
+                Avenida de las ballenas sin numero
+                Primera bajada al mar
+                Puerto piramides Patagonia Argentina
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFour">
+            <button class="accordion-button collapsed text-light bg-dark" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              Redes
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <a href="#">Instagram</a>
+              <a href="#">Facebook</a>
+              <a href="#">Twitter</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Fin acordeon-->
+  </section>
+
+  <footer class="piePagina flex-column d-flex justify-content-center align-items-center">
+    <section>
+      <i class="bi bi-instagram" style="font-size: 3rem; color: white;"></i>
+      <i class="bi bi-facebook" style="font-size: 3rem; color: white;"></i>
+      <i class="bi bi-twitter" style="font-size: 3rem; color: white;"></i>
+    </section>
+    <p class="text-light">Creado para coder house todos los derechos reservados</p>
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
