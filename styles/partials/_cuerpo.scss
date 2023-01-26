@@ -11,8 +11,8 @@
     border-color: $seconcolor;
 }
 .carrucel{
-    width: 900px
-}
+    max-width:60%;
+    }
 .texto {
     color: $seconcolor;
     background-color: $maincolor;
@@ -27,7 +27,4 @@
     border-width: 1px;
     border-color: $seconcolor;
     text-align: center;
-}
-.negrita{
-    text-decoration: dashed;
 }
