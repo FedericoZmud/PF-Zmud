@@ -10,7 +10,7 @@
 .cuerpo {
   background-image: url(../img/pizzaFondo.jpg);
   background-position: center;
-  height: 85vh;
+  height: 800px;
 }
 
 .titulo {
@@ -22,7 +22,7 @@
 }
 
 .carrucel {
-  max-width: 60%;
+  max-width: 40%;
 }
 
 .texto {
