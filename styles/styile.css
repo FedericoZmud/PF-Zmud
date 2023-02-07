@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .inicio {
@@ -11,8 +12,6 @@
   background-image: url(../img/pizzaFondo.jpg);
   background-position: center;
   background-size: cover;
-  height: 800px;
-  overflow: visible;
 }
 
 .titulo {
